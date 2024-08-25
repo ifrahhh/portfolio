@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/31c01e7521.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+
+    <div class="container">
+        <nav>
+            <img src="images/images/logo.svg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services </a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <!-- <div class="header-text"></div> -->
+         <div class="container-1">  
+            <p>Frontend developer</p>
+            <h1>Hi, I'm <span style="color:rgb(215, 65, 200)">Sayyada Ifrah</span><br> from hyderabad</h1>
+        </div>
+        <div class="container-2"></div>    
+    </div>
+  </div>  
+<!--------------about------------->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class=" sub-title">About Me</h1>
+                <p>I’m a web wizard in training—still figuring out if I break the code or it breaks me! I’m knee-deep in HTML, CSS, and JavaScript, and I’m pretty sure I’m winning... most days. Not a coding genius yet, but I’ve got enough caffeine and curiosity to get there. Let’s see what we can break—uh, I mean, build together!</i></p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>      
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        
+                        <li><span style="color:rgb(255, 34, 255)">HTML & CSS</span><br>create well-structured and visually appealing web pages. <br></li>
+                        <br>
+                        <li><span style="color:rgb(255, 34, 255)">JavaScript</span><br>interactive and dynamic web content.<br></li><br>
+
+                        <li><span style="color:rgb(255, 34, 255)"> Wordpress</span><br>Skilled WordPress enthusiast with hands-on experience and a passion for creating dynamic websites!</li><br>
+                        <li><span style="color:rgb(255, 34, 255)">Unreal engine</span><br>Diving into the world of Unreal Engine with a beginner's curiosity and excitement. Eager to explore and create immersive 3D experiences! <br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        
+                        <li><span style="color:rgb(255, 34, 255)">2024 - current</span><br>intern as front end developer in deepthought.</li><br>
+                        
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        
+                        <li><span style="color:rgb(255, 34, 255)">2026</span><br>B.tech information technology,vardhaman college of engineering,Hyderabad</li><br>
+                        <li><span style="color:rgb(255, 34, 255)">2022</span><br> Intermediate ,Sri Chaitanya junior college</li><br>
+                        <li><span style="color:rgb(255, 34, 255)">2020 </span><br> SSC,CNR Memorial High School</li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+  </div>
+  <!----------services----------------- -->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web developer</h2>
+                <p>
+                    Developing basic projects while building my foundation in web development.</p>
+                <!-- <a href="#">Learn more</a> -->
+            </div>
+            <div>
+                <i class="fa fa-wordpress" aria-hidden="true"></i>
+
+               
+                <h2>Wordpress</h2>
+                <p>Starting my journey by creating and customizing basic websites with WordPress.</p>
+                <!-- <a href="#">Learn more</a> -->
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                <h2>UI/UX</h2>
+                <p>Passionate about UI/UX design, continually learning and refining my skills to create user-friendly experiences.</p>
+                <!-- <a href="#">Learn more</a> -->
+            </div>
+
+
+        </div>
+
+
+    </div>
+  </div>
+  <!----------portfolio---------->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/img1.jpeg">
+                <div class="layer">
+                    <h2>Voice Calculator</h2><br>
+                        <p>Developed a voice-activated calculator in Python, showcasing advanced voice recognition and functionality.</p>
+                        <a href="#">   <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/img2.jpeg">
+                <div class="layer">
+                    <h2>Wordpress</h2>
+                    <p>working...</p>
+                    <a href="#">   <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <IMG src="image/img3.jpeg">
+                <div class="layer">
+                    <h2>Node.js curriculum.</h2><br>
+                    <p>Contributing to the development of a comprehensive Node.js curriculum as an intern, enhancing practical learning experiences.
+                    </p>
+                    <a href="#">   <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>                                  
+            </div>   
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+  </div>
+  <!---------------contact---------------->
+  <div id="contact">
+    <div class="container">
+       <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ifrahsyed2022@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9100413434</p>
+                <div class="social-icons">
+                    <a href="https://pin.it/5jiyxIsc0"><i class="fa fa-pinterest" aria-hidden="true"></i>
+
+                    <a href="https://www.linkedin.com/in/ifrah-sayyada-876a09255/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/ifrahhh"><i class="fa-brands fa-github"></i>
+                </div>
+                <a href=""class="btn btn2" >Download CV</a>
+
+            </div>
+        <div class="contact-right">
+            <form id="portfolio-form" name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="your name" required>
+                <input type="email" name="Email" placeholder="your email" required>
+                <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div> 
+</div>
+<div class="copyright">
+    <p>copyright @ Sayyada .Made with <i class="fa-solid fa-heart"></i> by ifrah </p>
+</div>
+</div>
+
+
+
+  <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+  </script>
+  <script>
+
+    var sidemeu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right= "0";
+    }
+    
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+  </script>  
+ <script>
+    const message = document.getElementById('msg');
+
+    const displayMessage = (response) => {
+        message.style.opacity = '1';
+        message.style.visibility = 'visible';
+
+        if(response?.ok) {
+            message.classList.add('successMessage')
+            message.innerHTML = `Form submitted succesfully!!`;
+        } else {
+            message.classList.add('errorMessage');
+            message.innerHTML = `Error while submitting`;
+        }
+        setTimeout(() => {
+             message.innerHTML =  ``;
+        }, '10000')
+}
+
+
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzREUv9UlqE4qyjtyX2Dxt4jSQdM8lV1qc0oATYvybMs59Yd5nr_icXG39T7gio65o3JQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            displayMessage(response);
+    })
+        .catch(error => displayMessage(error))
+    })
+  </script>
+
+    
+</body>
+</html>
